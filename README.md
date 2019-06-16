@@ -122,7 +122,7 @@ At this point you will have installed the required *libc6* library and you'll be
 	cd openssl-1.0.2l
 	./Configure os/compiler:arm-linux-gnueabihf
 	make CC="arm-linux-gnueabihf-gcc" AR="arm-linux-gnueabihf-ar r" RANLIB="arm-linux-gnueabihf-ranlib"
-	make install
+	sudo make install
 	```
 7. **[on host]** Create a sysroot. Using rsync we can properly keep things synchronized in the future as well. Replace raspberrypi.local with the IP address of the Pi and set the port number you have configured:
 
