@@ -140,7 +140,7 @@ At this point you will have installed the required *libc6* library and you'll be
 
 	```
 	cd ~/raspi
-	wget https://raw.githubusercontent.com/riscv/riscv-poky/priv-1.10/scripts/sysroot-relativelinks.py
+	wget https://raw.githubusercontent.com/riscv/riscv-poky/master/scripts/sysroot-relativelinks.py
 	chmod +x sysroot-relativelinks.py
 	./sysroot-relativelinks.py /Volumes/xtool-build-env/armv8-rpi3-linux-gnueabihf/armv8-rpi3-linux-gnueabihf/sysroot
 	```
